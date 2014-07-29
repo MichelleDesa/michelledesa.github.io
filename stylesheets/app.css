@@ -1,3 +1,4 @@
+/* Typography, colours and other related theme related styles */
 /* line 316, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.3.1/";
@@ -60,11 +61,11 @@ body {
 
 /* line 365, ../bower_components/foundation/scss/foundation/components/_global.scss */
 body {
-  background: white;
-  color: #222222;
+  background: #fdfefd;
+  color: #210b02;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1615,7 +1616,7 @@ select {
   color: #222222;
   padding: 1rem;
   display: block;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 1rem;
 }
 /* line 142, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
@@ -2315,7 +2316,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -4221,7 +4222,7 @@ kbd {
 /* line 91, ../bower_components/foundation/scss/foundation/components/_labels.scss */
 .label {
   font-weight: normal;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Karla", sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -4797,7 +4798,7 @@ ul.pagination li {
   color: #eeeeee;
   font-weight: normal;
   font-size: 1rem;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Karla", sans-serif;
 }
 /* line 143, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .price {
@@ -4807,7 +4808,7 @@ ul.pagination li {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Karla", sans-serif;
 }
 /* line 144, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .description {
@@ -5163,7 +5164,7 @@ dialog[open] {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Karla", sans-serif;
 }
 /* line 70, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li {
@@ -5186,7 +5187,7 @@ dialog[open] {
 .side-nav li.active > a:first-child:not(.button) {
   color: #1cc7ff;
   font-weight: normal;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Karla", sans-serif;
 }
 /* line 92, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.divider {
@@ -5354,7 +5355,7 @@ dialog[open] {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0.625rem;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999;
@@ -5881,10 +5882,10 @@ p aside {
 /* Default header styles */
 /* line 247, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Comfortaa", cursive;
   font-weight: normal;
   font-style: normal;
-  color: #222222;
+  color: #818306;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -5893,7 +5894,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 257, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 60%;
-  color: #6f6f6f;
+  color: #f1f417;
   line-height: 0;
 }
 
@@ -5930,7 +5931,7 @@ h6 {
 /* line 271, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
+  color: #f1f417;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -6061,7 +6062,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222222;
+  color: #210b02;
   border-bottom: 1px dotted #dddddd;
   cursor: help;
 }
@@ -6082,7 +6083,7 @@ blockquote {
 blockquote cite {
   display: block;
   font-size: 0.8125rem;
-  color: #555555;
+  color: #d2d50a;
 }
 /* line 396, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite:before {
@@ -6091,14 +6092,14 @@ blockquote cite:before {
 /* line 401, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite a,
 blockquote cite a:visited {
-  color: #555555;
+  color: #d2d50a;
 }
 
 /* line 407, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #6f6f6f;
+  color: #f1f417;
 }
 
 /* Microformats */
@@ -6302,7 +6303,7 @@ blockquote p {
   background: #efefef;
   color: #222222;
   padding: 1rem 2rem;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 1rem;
 }
 /* line 47, ../bower_components/foundation/scss/foundation/components/_tabs.scss */
@@ -6725,7 +6726,7 @@ meta.foundation-mq-topbar {
   color: white;
   padding: 12px 0 12px 0;
   padding-left: 15px;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
   text-transform: none;
@@ -8054,4 +8055,52 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important;
   }
+}
+/* Layout and other general related page styles */
+/* line 3, ../scss/_common.scss */
+.hero-unit-wrapper {
+  position: relative;
+  /* position: absolute; */
+  /* height: 100%; */
+  /* weight: 100%; */
+}
+
+/* line 10, ../scss/_common.scss */
+.intro-block {
+  background-color: rgba(253, 254, 253, 0.2);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+/* line 15, ../scss/_common.scss */
+.intro-block hr {
+  border: 0;
+  border-top: 1px solid #210b02;
+}
+/* line 18, ../scss/_common.scss */
+.intro-block hr.full {
+  width: 100%;
+}
+/* line 21, ../scss/_common.scss */
+.intro-block hr.part {
+  width: 65%;
+}
+/* line 25, ../scss/_common.scss */
+.intro-block .header {
+  color: #210b02;
+  font-family: "Abril Fatface", cursive;
+}
+/* line 29, ../scss/_common.scss */
+.intro-block .sub-header {
+  color: #fff;
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+}
+/* line 33, ../scss/_common.scss */
+.intro-block .sub-header .separator {
+  font-family: "Abril Fatface", cursive;
+}
+/* line 37, ../scss/_common.scss */
+.intro-block .details {
+  text-align: center;
 }

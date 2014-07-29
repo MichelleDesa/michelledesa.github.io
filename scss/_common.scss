@@ -1,0 +1,40 @@
+/* Layout and other general related page styles */
+
+.hero-unit-wrapper {
+    position: relative;
+    /* position: absolute; */
+    /* height: 100%; */
+    /* weight: 100%; */
+}
+
+.intro-block {
+    background-color: rgba($body-bg-color, 0.2);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    hr {
+        border: 0;
+        border-top: 1px solid $body-text-color;
+        &.full {
+            width: 100%;
+        }
+        &.part {
+            width: 65%;
+        }
+    }
+    .header {
+        color: $body-text-color;
+        font-family: $header-fonts;
+    }
+    .sub-header {
+        color: #fff;
+        font-family: $body-fonts;
+        text-transform: uppercase;
+        .separator {
+            font-family: $header-fonts;
+        }
+    }
+    .details {
+        text-align: center;
+    }
+}
