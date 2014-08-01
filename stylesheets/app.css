@@ -8060,47 +8060,44 @@ th.hide-for-touch {
 /* line 3, ../scss/_common.scss */
 .hero-unit-wrapper {
   position: relative;
-  /* position: absolute; */
-  /* height: 100%; */
-  /* weight: 100%; */
 }
 
-/* line 10, ../scss/_common.scss */
+/* line 7, ../scss/_common.scss */
 .intro-block {
   background-color: rgba(253, 254, 253, 0.2);
   width: 100%;
   position: absolute;
   bottom: 0;
 }
-/* line 15, ../scss/_common.scss */
+/* line 12, ../scss/_common.scss */
 .intro-block hr {
   border: 0;
   border-top: 1px solid #210b02;
 }
-/* line 18, ../scss/_common.scss */
+/* line 15, ../scss/_common.scss */
 .intro-block hr.full {
   width: 100%;
 }
-/* line 21, ../scss/_common.scss */
+/* line 18, ../scss/_common.scss */
 .intro-block hr.part {
   width: 65%;
 }
-/* line 25, ../scss/_common.scss */
+/* line 22, ../scss/_common.scss */
 .intro-block .header {
   color: #210b02;
   font-family: "Abril Fatface", cursive;
 }
-/* line 29, ../scss/_common.scss */
+/* line 26, ../scss/_common.scss */
 .intro-block .sub-header {
   color: #fff;
   font-family: "Karla", sans-serif;
   text-transform: uppercase;
 }
-/* line 33, ../scss/_common.scss */
+/* line 30, ../scss/_common.scss */
 .intro-block .sub-header .separator {
   font-family: "Abril Fatface", cursive;
 }
-/* line 37, ../scss/_common.scss */
+/* line 34, ../scss/_common.scss */
 .intro-block .details {
   text-align: center;
 }
