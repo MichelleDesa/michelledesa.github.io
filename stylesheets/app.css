@@ -8145,39 +8145,48 @@ th.hide-for-touch {
   bottom: 0;
 }
 /* line 18, ../scss/_common.scss */
-.intro-block hr {
-  border: 0;
-  border-top: 1px solid #210b02;
+.intro-block .sep-blocks {
+  padding-top: 1.2rem;
 }
 /* line 21, ../scss/_common.scss */
+.intro-block hr {
+  border: 0;
+  border-top: 2px solid #210b02;
+}
+/* line 24, ../scss/_common.scss */
 .intro-block hr.full {
   width: 100%;
 }
-/* line 24, ../scss/_common.scss */
+/* line 27, ../scss/_common.scss */
 .intro-block hr.part {
   width: 65%;
 }
-/* line 28, ../scss/_common.scss */
+/* line 29, ../scss/_common.scss */
+.intro-block hr.part.right-aligned {
+  position: relative;
+  left: 35%;
+}
+/* line 35, ../scss/_common.scss */
 .intro-block .header {
   color: #210b02;
   font-family: "Abril Fatface", cursive;
 }
-/* line 32, ../scss/_common.scss */
+/* line 39, ../scss/_common.scss */
 .intro-block .secondary-header {
   color: #fff;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-/* line 36, ../scss/_common.scss */
+/* line 43, ../scss/_common.scss */
 .intro-block .secondary-header .separator {
   font-family: "Abril Fatface", cursive;
 }
-/* line 40, ../scss/_common.scss */
+/* line 47, ../scss/_common.scss */
 .intro-block .details {
   text-align: center;
 }
 
-/* line 45, ../scss/_common.scss */
+/* line 52, ../scss/_common.scss */
 .social-links {
   margin: 0 auto 1.0625rem auto;
   margin-left: -1.375rem;
@@ -8199,7 +8208,7 @@ th.hide-for-touch {
   display: block;
 }
 
-/* line 50, ../scss/_common.scss */
+/* line 57, ../scss/_common.scss */
 .secondary-header {
   letter-spacing: 0.5px;
 }

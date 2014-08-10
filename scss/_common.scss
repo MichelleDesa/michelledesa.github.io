@@ -15,14 +15,21 @@
     width: 100%;
     position: absolute;
     bottom: 0;
+    .sep-blocks {
+        padding-top: 1.2rem;
+    }
     hr {
         border: 0;
-        border-top: 1px solid $body-text-color;
+        border-top: 2px solid $body-text-color;
         &.full {
             width: 100%;
         }
         &.part {
             width: 65%;
+            &.right-aligned {
+                position: relative;
+                left: 35%;
+            }
         }
     }
     .header {
