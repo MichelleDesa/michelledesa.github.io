@@ -7,7 +7,7 @@
   font-style: normal;
 }
 
-/* line 25, ../scss/_theme.scss */
+/* line 24, ../scss/_theme.scss */
 [data-icon]:before {
   font-family: "ss" !important;
   content: attr(data-icon);
@@ -21,12 +21,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 39, ../scss/_theme.scss */
+/* line 38, ../scss/_theme.scss */
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
   font-family: "ss" !important;
   font-size: 48px;
-  color: #210b02;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
@@ -36,33 +35,28 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* line 51, ../scss/_theme.scss */
-[class^="icon-"]:before :hover,
-[class*=" icon-"]:before :hover {
-  color: #818306 !important;
-}
 
-/* line 56, ../scss/_theme.scss */
+/* line 52, ../scss/_theme.scss */
 .icon-behance-icon:before {
   content: "a";
 }
 
-/* line 59, ../scss/_theme.scss */
+/* line 55, ../scss/_theme.scss */
 .icon-instagram-icon:before {
   content: "b";
 }
 
-/* line 62, ../scss/_theme.scss */
+/* line 58, ../scss/_theme.scss */
 .icon-linkedin-icon:before {
   content: "c";
 }
 
-/* line 65, ../scss/_theme.scss */
+/* line 61, ../scss/_theme.scss */
 .icon-tumblr-icon:before {
   content: "d";
 }
 
-/* line 68, ../scss/_theme.scss */
+/* line 64, ../scss/_theme.scss */
 .icon-twitter-icon:before {
   content: "e";
 }
@@ -5918,7 +5912,7 @@ a {
 }
 /* line 218, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a:hover, a:focus {
-  color: #6e6f05;
+  color: #616204;
 }
 /* line 225, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a img {
@@ -5953,7 +5947,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Comfortaa", cursive;
   font-weight: normal;
   font-style: normal;
-  color: #818306;
+  color: #222222;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -5962,7 +5956,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 257, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 60%;
-  color: #f1f417;
+  color: #6f6f6f;
   line-height: 0;
 }
 
@@ -5999,7 +5993,7 @@ h6 {
 /* line 271, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
-  color: #f1f417;
+  color: #6f6f6f;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -6151,7 +6145,7 @@ blockquote {
 blockquote cite {
   display: block;
   font-size: 0.8125rem;
-  color: #d2d50a;
+  color: #555555;
 }
 /* line 396, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite:before {
@@ -6160,14 +6154,14 @@ blockquote cite:before {
 /* line 401, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite a,
 blockquote cite a:visited {
-  color: #d2d50a;
+  color: #555555;
 }
 
 /* line 407, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #f1f417;
+  color: #6f6f6f;
 }
 
 /* Microformats */
@@ -8207,8 +8201,17 @@ th.hide-for-touch {
 .social-links > li > * {
   display: block;
 }
+/* line 55, ../scss/_common.scss */
+.social-links a {
+  border: 0;
+  color: #818306;
+}
+/* line 58, ../scss/_common.scss */
+.social-links a:hover {
+  color: #616204;
+}
 
-/* line 57, ../scss/_common.scss */
+/* line 64, ../scss/_common.scss */
 .secondary-header {
   letter-spacing: 0.5px;
 }

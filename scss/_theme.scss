@@ -19,7 +19,6 @@ $body-fonts: 'Open Sans', sans-serif;
     url("/fonts/simple-social-icons/ss.svg#ss") format("svg");
   font-weight: normal;
   font-style: normal;
-
 }
 
 [data-icon]:before {
@@ -39,7 +38,7 @@ $body-fonts: 'Open Sans', sans-serif;
 [class*=" icon-"]:before {
   font-family: "ss" !important;
   font-size: 48px;
-  color: $body-text-color;
+//  color: $body-text-color;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
@@ -48,9 +47,6 @@ $body-fonts: 'Open Sans', sans-serif;
   line-height: 1.2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  :hover {
-      color: $highlight-color !important;
-  }
 }
 
 .icon-behance-icon:before {

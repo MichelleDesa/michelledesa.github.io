@@ -52,6 +52,13 @@
 .social-links {
     @include inline-list;
     margin: 0 0 0 -1.8rem;
+    a {
+        border: 0;
+        color: $highlight-color;
+        &:hover {
+            color: scale-color($highlight-color, $lightness: -25%);
+        }
+    }
 }
 
 .secondary-header {
