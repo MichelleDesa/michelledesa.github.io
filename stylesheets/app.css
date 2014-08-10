@@ -67,11 +67,6 @@
   content: "e";
 }
 
-/* line 72, ../scss/_theme.scss */
-.secondary-headers {
-  letter-spacing: 0.5px;
-}
-
 /* line 316, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.3.1/";
@@ -8168,13 +8163,13 @@ th.hide-for-touch {
   font-family: "Abril Fatface", cursive;
 }
 /* line 32, ../scss/_common.scss */
-.intro-block .sub-header {
+.intro-block .secondary-header {
   color: #fff;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
 }
 /* line 36, ../scss/_common.scss */
-.intro-block .sub-header .separator {
+.intro-block .secondary-header .separator {
   font-family: "Abril Fatface", cursive;
 }
 /* line 40, ../scss/_common.scss */
@@ -8202,4 +8197,9 @@ th.hide-for-touch {
 /* line 47, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
 .social-links > li > * {
   display: block;
+}
+
+/* line 50, ../scss/_common.scss */
+.secondary-header {
+  letter-spacing: 0.5px;
 }

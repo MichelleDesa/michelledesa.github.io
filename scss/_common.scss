@@ -29,7 +29,7 @@
         color: $body-text-color;
         font-family: $header-fonts;
     }
-    .sub-header {
+    .secondary-header {
         color: #fff;
         font-family: $body-fonts;
         text-transform: uppercase;
@@ -45,4 +45,8 @@
 .social-links {
     @include inline-list;
     margin: 0 0 0 -1.8rem;
+}
+
+.secondary-header {
+    letter-spacing: 0.5px;
 }
