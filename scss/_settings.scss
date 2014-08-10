@@ -178,8 +178,8 @@ $header-font-color: $highlight-color;
 // We use these to style anchors
 // $anchor-text-decoration: none;
 // $anchor-text-decoration-hover: none;
-// $anchor-font-color: $primary-color;
-// $anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
+$anchor-font-color: $highlight-color;
+$anchor-font-color-hover: scale-color($highlight-color, $lightness: -15%);
 
 // We use these to style the <hr> element
 // $hr-border-width: 1px;
@@ -611,7 +611,7 @@ $header-font-color: $highlight-color;
 // $joyride-tip-radius: 4px;
 // $joyride-tip-position-offset: 22px;
 
-// Here, we're setting the tip dont styles
+// Here, were setting the tip dont styles
 // $joyride-tip-font-color: #fff;
 // $joyride-tip-font-size: rem-calc(14);
 // $joyride-tip-header-weight: $font-weight-bold;

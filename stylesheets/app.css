@@ -1,4 +1,77 @@
 /* Typography, colours and other related theme related styles */
+@font-face {
+  font-family: "ss";
+  src: url("ss.eot");
+  src: url("/fonts/simple-social-icons/ss.eot?#iefix") format("embedded-opentype"), url("../fonts/simple-social-icons/ss.woff") format("woff"), url("/fonts/simple-social-icons/ss.ttf") format("truetype"), url("/fonts/simple-social-icons/ss.svg#ss") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 25, ../scss/_theme.scss */
+[data-icon]:before {
+  font-family: "ss" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 39, ../scss/_theme.scss */
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "ss" !important;
+  font-size: 48px;
+  color: #210b02;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1.2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* line 51, ../scss/_theme.scss */
+[class^="icon-"]:before :hover,
+[class*=" icon-"]:before :hover {
+  color: #818306 !important;
+}
+
+/* line 56, ../scss/_theme.scss */
+.icon-behance-icon:before {
+  content: "a";
+}
+
+/* line 59, ../scss/_theme.scss */
+.icon-instagram-icon:before {
+  content: "b";
+}
+
+/* line 62, ../scss/_theme.scss */
+.icon-linkedin-icon:before {
+  content: "c";
+}
+
+/* line 65, ../scss/_theme.scss */
+.icon-tumblr-icon:before {
+  content: "d";
+}
+
+/* line 68, ../scss/_theme.scss */
+.icon-twitter-icon:before {
+  content: "e";
+}
+
+/* line 72, ../scss/_theme.scss */
+.secondary-headers {
+  letter-spacing: 0.5px;
+}
+
 /* line 316, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.3.1/";
@@ -65,7 +138,7 @@ body {
   color: #210b02;
   padding: 0;
   margin: 0;
-  font-family: "Karla", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1616,7 +1689,7 @@ select {
   color: #222222;
   padding: 1rem;
   display: block;
-  font-family: "Karla", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
 }
 /* line 142, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
@@ -2316,7 +2389,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Karla", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -4222,7 +4295,7 @@ kbd {
 /* line 91, ../bower_components/foundation/scss/foundation/components/_labels.scss */
 .label {
   font-weight: normal;
-  font-family: "Karla", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -4798,7 +4871,7 @@ ul.pagination li {
   color: #eeeeee;
   font-weight: normal;
   font-size: 1rem;
-  font-family: "Karla", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 /* line 143, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .price {
@@ -4808,7 +4881,7 @@ ul.pagination li {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "Karla", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 /* line 144, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .description {
@@ -5164,7 +5237,7 @@ dialog[open] {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: "Karla", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 /* line 70, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li {
@@ -5187,7 +5260,7 @@ dialog[open] {
 .side-nav li.active > a:first-child:not(.button) {
   color: #1cc7ff;
   font-weight: normal;
-  font-family: "Karla", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 /* line 92, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.divider {
@@ -5355,7 +5428,7 @@ dialog[open] {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0.625rem;
-  font-family: "Karla", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999;
@@ -5844,13 +5917,13 @@ td {
 /* Default Link Styles */
 /* line 212, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a {
-  color: #008cba;
+  color: #818306;
   text-decoration: none;
   line-height: inherit;
 }
 /* line 218, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a:hover, a:focus {
-  color: #0078a0;
+  color: #6e6f05;
 }
 /* line 225, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a img {
@@ -6303,7 +6376,7 @@ blockquote p {
   background: #efefef;
   color: #222222;
   padding: 1rem 2rem;
-  font-family: "Karla", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
 }
 /* line 47, ../bower_components/foundation/scss/foundation/components/_tabs.scss */
@@ -6726,7 +6799,7 @@ meta.foundation-mq-topbar {
   color: white;
   padding: 12px 0 12px 0;
   padding-left: 15px;
-  font-family: "Karla", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
   text-transform: none;
@@ -8057,47 +8130,76 @@ th.hide-for-touch {
   }
 }
 /* Layout and other general related page styles */
-/* line 3, ../scss/_common.scss */
+/* Layout */
+/* line 4, ../scss/_common.scss */
+.pad-top {
+  padding-top: 30px;
+}
+
+/* Page specific */
+/* line 9, ../scss/_common.scss */
 .hero-unit-wrapper {
   position: relative;
 }
 
-/* line 7, ../scss/_common.scss */
+/* line 13, ../scss/_common.scss */
 .intro-block {
   background-color: rgba(253, 254, 253, 0.2);
   width: 100%;
   position: absolute;
   bottom: 0;
 }
-/* line 12, ../scss/_common.scss */
+/* line 18, ../scss/_common.scss */
 .intro-block hr {
   border: 0;
   border-top: 1px solid #210b02;
 }
-/* line 15, ../scss/_common.scss */
+/* line 21, ../scss/_common.scss */
 .intro-block hr.full {
   width: 100%;
 }
-/* line 18, ../scss/_common.scss */
+/* line 24, ../scss/_common.scss */
 .intro-block hr.part {
   width: 65%;
 }
-/* line 22, ../scss/_common.scss */
+/* line 28, ../scss/_common.scss */
 .intro-block .header {
   color: #210b02;
   font-family: "Abril Fatface", cursive;
 }
-/* line 26, ../scss/_common.scss */
+/* line 32, ../scss/_common.scss */
 .intro-block .sub-header {
   color: #fff;
-  font-family: "Karla", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-/* line 30, ../scss/_common.scss */
+/* line 36, ../scss/_common.scss */
 .intro-block .sub-header .separator {
   font-family: "Abril Fatface", cursive;
 }
-/* line 34, ../scss/_common.scss */
+/* line 40, ../scss/_common.scss */
 .intro-block .details {
   text-align: center;
+}
+
+/* line 45, ../scss/_common.scss */
+.social-links {
+  margin: 0 auto 1.0625rem auto;
+  margin-left: -1.375rem;
+  margin-right: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  margin: 0 0 0 -1.8rem;
+}
+/* line 42, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
+.social-links > li {
+  list-style: none;
+  float: left;
+  margin-left: 1.375rem;
+  display: block;
+}
+/* line 47, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
+.social-links > li > * {
+  display: block;
 }

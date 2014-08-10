@@ -1,5 +1,11 @@
 /* Layout and other general related page styles */
 
+/* Layout */
+.pad-top {
+    padding-top: 30px;
+}
+
+/* Page specific */
 .hero-unit-wrapper {
     position: relative;
 }
@@ -34,4 +40,9 @@
     .details {
         text-align: center;
     }
+}
+
+.social-links {
+    @include inline-list;
+    margin: 0 0 0 -1.8rem;
 }
